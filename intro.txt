@@ -1,0 +1,43 @@
+I will be following Backtracking Algorithm to solve this problem.
+Goretti Muriithi 
+gm552
+Title: Sudoku Solver
+
+The algorithm works something like this:
+1. Pick empty box.
+2. Try all numbers.
+3. Find one that works.
+I built this python program to help me solve soduku games after my 
+first initial attempt. To create this solver, I used the 
+backtracking algorithm to solve this problem.
+
+The algorithm solves the soduku grid like this:
+1. Pick an empty box.
+2. Try all numbers from 0 to 9.
+3. Find the number between 0 and 9 (inclusive) that works.
+4. Backtrack when the sudoku rules are broken.
+5. Repeat the above steps until all the boxes are filled up.
+5. Repeat the above steps until all the boxes are filled up.
+
+Instructions
+Objective:
+The objective of Sudoku is to fill a 9x9 grid with digits 
+so that each column, each row, and each of the nine 3x3 
+subgrids that compose the grid (also called "boxes", "blocks", 
+or "regions") contain all of the digits from 1 to 9.
+
+Rules:
+1. Each row must contain all the numbers from 1 to 9 
+   without repeating any digit.
+2. Each column must contain all the numbers from 1 to 9
+   without repeating any digit.
+3. Each 3x3 subgrid (box) must contain all the numbers
+   from 1 to 9 without repeating any digit.
+
+GUI commands
+1. Click on a box. When the box's border is bright red, 
+that is the box you are working on. 
+2. Enter in a number from 1 to 9. Press ENTER KEY to check
+if your number is in the correct spot. 
+3. Select on an empty box. Press SPACEBAR to autosolve the 
+entire sudoku game. 
